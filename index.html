@@ -1,38 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ESP32 Parking Sensor Project</title>
+    <title>ESP32 Real-Time Parking Sensor Project</title>
     <meta charset="UTF-8">
 </head>
 
 <body style="font-family: Arial; margin: 40px;">
 
-    <h1>ESP32 Parking Sensor Project</h1>
+    <h1>ESP32 Real-Time Parking Sensor Project</h1>
 
     <p>
-        This is a simple real-time embedded system I built using the ESP32 and ESP-IDF v4.x. 
-        The project uses an ultrasonic sensor to detect distance and LED/buzzer indicators 
-        to warn the driver as a vehicle approaches an obstacle.
+        This is a simple real-time embedded system I built using the ESP32 and ESP-IDF. 
+        The project measures distance using an HC-SR04 ultrasonic sensor and updates an emergency LED indicator 
+        as the autonomous vehicle approaches an obstacle. Because measurements and alerts must be delivered within strict 
+        timing constraints, the system qualifies as a real-time embedded application. The demo 
+        shows the system responding live to distance changes.
     </p>
-
+    <br>
+    </br>
     <h2>Project Demo</h2>
 
-    <!-- Replace YOUR_VIDEO_ID with the actual ID -->
+   
     <iframe width="560" height="315"
         src="https://youtu.be/2wa2pWWTPug"
         frameborder="0"
         allowfullscreen>
     </iframe>
 
-    <h2>Description</h2>
-    <p>
-        This project is a real-time parking distance sensor built using the ESP32 microcontroller. 
-        It measures distance using an HC-SR04 ultrasonic sensor and updates LED or buzzer indicators 
-        as the object gets closer. Because measurements and alerts must be delivered within strict 
-        timing constraints, the system qualifies as a real-time embedded application. The demo 
-        shows the system responding live to distance changes.
-
-    </p>
 
 </body>
 </html>
